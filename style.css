@@ -1,0 +1,26 @@
+.square{
+	width: 150px;
+	height: 150px;
+	border: red;
+	border-style: solid;
+}
+
+.grid{
+	display: flex;
+	/*Displays an element as a block-level flex container*/
+	flex-flow: row wrap;
+	/*Specifying the direction of the flexible items*/
+	justify-content:center; 
+   /*alignement take care in accordance to the width and height given*/
+   width:700px;
+   height: 400px;
+}
+
+.panda{
+	background-image: url('p4.png');
+	background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+
+}
+
